@@ -1,0 +1,160 @@
+/* --- Styles de base navbar --- */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+}
+
+.nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-logo img.logo-img {
+  height: 50px;
+}
+
+/* Menu desktop */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #333;
+  padding: 0.5rem 1rem;
+  display: block;
+}
+
+.nav-menu li a.active {
+  color: #007bff;
+}
+
+.btn-donate {
+  background-color: #ff5a5f;
+  color: white !important;
+  border-radius: 4px;
+}
+
+/* --- Hamburger (bouton menu mobile) --- */
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+  display: block;
+  background-color: #333;
+  height: 3px;
+  width: 25px;
+  border-radius: 2px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+}
+
+.hamburger::before {
+  top: -8px;
+}
+
+.hamburger::after {
+  top: 8px;
+}
+
+.hamburger.open {
+  background-color: transparent;
+}
+
+.hamburger.open::before {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+.hamburger.open::after {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+/* --- Responsive (petits écrans) --- */
+@media (max-width: 768px) {
+  /* Affiche bouton hamburger */
+  .nav-toggle {
+    display: block;
+  }
+
+  /* Cacher menu par défaut */
+  .nav-menu {
+    position: absolute;
+    top: 65px;
+    right: 1rem;
+    background-color: white;
+    width: 200px;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+
+  /* Menu actif affiché */
+  .nav-menu.active {
+    max-height: 500px; /* assez grand */
+  }
+
+  .nav-menu li a {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-menu li:last-child a {
+    border-bottom: none;
+  }
+
+}
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.nav-menu.active {
+  display: flex !important;
+  flex-direction: column;
+  max-height: 1000px !important;
+  background: white;
+  padding: 1rem;
+}
