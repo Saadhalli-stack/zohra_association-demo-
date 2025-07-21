@@ -3,36 +3,41 @@ import "./Gallery.css";
 
 export default function Gallery() {
   const galleryItems = [
-    {
-   
-      image: "/images/galerie1.jpg",
-      images: [
-        "/images/galerie1.jpg",
-        "/images/galerie2.png",
-        "/images/galerie3.png",
-      ],
-      title: "Mise en place et lancement des programmes pilotes dans l’école Deroua",
-      description:
-        "Dans l’école de Deroua, nous avons lancé trois programmes clés : Programme de sensibilisation à la poursuite d’étude pour les jeunes femmes ; Programme pour élèves à besoins spécifiques (Petit Ayoub a reçu un fauteuil roulant) ; Programme environnemental avec ateliers et initiatives pour sensibiliser les élèves à la protection de leur environnement.",
-    },
-    {
-      image: "/images/galerie1b.png",
-      images: ["/images/galerie1b.png", "/images/galerie2b.png", "/images/galerie3b.png"],
-      title: "Témoignage | Volontariat de Laurie Wolff à Casablanca.",
-    
-   description: "Laurie Wolff, une bénévole engagée dans l’association depuis quelques mois, s’est rendue à Casablanca pour soutenir nos actions sur le terrain. Aux côtés de Touria, la sœur de Souad (notre présidente), Laurie a contribué à la mise en place des programmes éducatifs, à la communication et à l’organisation administrative. Elle a également participé à des actions concrètes comme la peinture et la rénovation dans les écoles, renforçant notre impact sur place."
+  {
+    image: process.env.PUBLIC_URL + "/images/galerie1.jpg",
+    images: [
+      process.env.PUBLIC_URL + "/images/galerie1.jpg",
+      process.env.PUBLIC_URL + "/images/galerie2.png",
+      process.env.PUBLIC_URL + "/images/galerie3.png",
+    ],
+    title: "Mise en place et lancement des programmes pilotes dans l’école Deroua",
+    description:
+      "Dans l’école de Deroua, nous avons lancé trois programmes clés : Programme de sensibilisation à la poursuite d’étude pour les jeunes femmes ; Programme pour élèves à besoins spécifiques (Petit Ayoub a reçu un fauteuil roulant) ; Programme environnemental avec ateliers et initiatives pour sensibiliser les élèves à la protection de leur environnement.",
+  },
+  {
+    image: process.env.PUBLIC_URL + "/images/galerie1b.png",
+    images: [
+      process.env.PUBLIC_URL + "/images/galerie1b.png",
+      process.env.PUBLIC_URL + "/images/galerie2b.png",
+      process.env.PUBLIC_URL + "/images/galerie3b.png",
+    ],
+    title: "Témoignage | Volontariat de Laurie Wolff à Casablanca.",
+    description:
+      "Laurie Wolff, une bénévole engagée dans l’association depuis quelques mois, s’est rendue à Casablanca pour soutenir nos actions sur le terrain. Aux côtés de Touria, la sœur de Souad (notre présidente), Laurie a contribué à la mise en place des programmes éducatifs, à la communication et à l’organisation administrative. Elle a également participé à des actions concrètes comme la peinture et la rénovation dans les écoles, renforçant notre impact sur place.",
+  },
+  {
+    image: process.env.PUBLIC_URL + "/images/galerie1c.png",
+    images: [
+      process.env.PUBLIC_URL + "/images/galerie1c.png",
+      process.env.PUBLIC_URL + "/images/galerie2c.png",
+    ],
+    title: "Inauguration du terrain de football à l’école Ben Abass",
+    date: "23 novembre",
+    description:
+      "Le 23 novembre, nous avons célébré un moment fort pour l’école Ben Abass : l’inauguration officielle du terrain de football entièrement rénové. Pour marquer cet événement, un tournoi exceptionnel a été organisé, réunissant plusieurs équipes, dont deux équipes féminines. La famille venue de France était également présente pour soutenir cette belle initiative et partager ce moment unique avec les enfants. Ce projet, fruit d’efforts collectifs, est bien plus qu’un terrain de jeu : c’est un espace pour rêver, s’épanouir et grandir. Un grand merci à toutes celles et ceux qui ont contribué à rendre ce rêve possible.",
+  },
+];
 
-    },
-    {
-      image: "/images/galerie1c.png",
-      images: ["/images/galerie1c.png", "/images/galerie2c.png"],
-     
-  title: "Inauguration du terrain de football à l’école Ben Abass",
-  date: "23 novembre",
-  description: "Le 23 novembre, nous avons célébré un moment fort pour l’école Ben Abass : l’inauguration officielle du terrain de football entièrement rénové. Pour marquer cet événement, un tournoi exceptionnel a été organisé, réunissant plusieurs équipes, dont deux équipes féminines. La famille venue de France était également présente pour soutenir cette belle initiative et partager ce moment unique avec les enfants. Ce projet, fruit d’efforts collectifs, est bien plus qu’un terrain de jeu : c’est un espace pour rêver, s’épanouir et grandir. Un grand merci à toutes celles et ceux qui ont contribué à rendre ce rêve possible.",
-
-    },
-  ];
 
 
   const [selectedIndex, setSelectedIndex] = useState(null);

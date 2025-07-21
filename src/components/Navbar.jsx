@@ -1,4 +1,4 @@
-// Navbar.jsx
+
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css"; 
@@ -30,7 +30,7 @@ export default function Navbar() {
           <li><NavLink to="/about" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>À propos</NavLink></li>
           <li><NavLink to="/projects" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>Nos événements</NavLink></li>
           <li><NavLink to="/gallery" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>Galerie</NavLink></li>
-          <li><NavLink to="/partners" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>Partenaires</NavLink></li>
+          {/* <li><NavLink to="/partners" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>Partenaires</NavLink></li> */}
           <li><NavLink to="/contact" className={({ isActive }) => linkClass(isActive)} onClick={handleLinkClick}>Contact</NavLink></li>
           <li><NavLink to="/donate" className={({ isActive }) => linkClass(isActive, "btn-donate")} onClick={handleLinkClick}>Faire un don</NavLink></li>
         </ul>
