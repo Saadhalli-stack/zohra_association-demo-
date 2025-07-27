@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/zohra_association-demo-/static/css/main.5ee35854.css",
-    "main.js": "/zohra_association-demo-/static/js/main.bfe7b688.js",
+    "main.css": "/zohra_association-demo-/static/css/main.f5e3ef32.css",
+    "main.js": "/zohra_association-demo-/static/js/main.cb017ba3.js",
     "static/js/453.778feb52.chunk.js": "/zohra_association-demo-/static/js/453.778feb52.chunk.js",
     "static/media/event1.png": "/zohra_association-demo-/static/media/event1.a50b84f8163b3fdefbb8.png",
     "static/media/logo.png": "/zohra_association-demo-/static/media/logo.42ed28b2b06a40919589.png",
     "static/media/logo2.png": "/zohra_association-demo-/static/media/logo2.266d065ddfbac924bde7.png",
     "index.html": "/zohra_association-demo-/index.html",
-    "main.5ee35854.css.map": "/zohra_association-demo-/static/css/main.5ee35854.css.map",
-    "main.bfe7b688.js.map": "/zohra_association-demo-/static/js/main.bfe7b688.js.map",
+    "main.f5e3ef32.css.map": "/zohra_association-demo-/static/css/main.f5e3ef32.css.map",
+    "main.cb017ba3.js.map": "/zohra_association-demo-/static/js/main.cb017ba3.js.map",
     "453.778feb52.chunk.js.map": "/zohra_association-demo-/static/js/453.778feb52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5ee35854.css",
-    "static/js/main.bfe7b688.js"
+    "static/css/main.f5e3ef32.css",
+    "static/js/main.cb017ba3.js"
   ]
 }
