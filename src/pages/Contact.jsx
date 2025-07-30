@@ -1,7 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import "./Contact.css";
-
+import '@fortawesome/fontawesome-free/css/all.min.css';
 export default function Contact() {
   const formRef = useRef();
   const [status, setStatus] = useState("");
