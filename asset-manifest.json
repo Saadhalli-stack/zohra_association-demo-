@@ -1,18 +1,22 @@
 {
   "files": {
-    "main.css": "/zohra_association-demo-/static/css/main.f5e3ef32.css",
-    "main.js": "/zohra_association-demo-/static/js/main.cb017ba3.js",
+    "main.css": "/zohra_association-demo-/static/css/main.22f50217.css",
+    "main.js": "/zohra_association-demo-/static/js/main.267c94f4.js",
     "static/js/453.778feb52.chunk.js": "/zohra_association-demo-/static/js/453.778feb52.chunk.js",
     "static/media/event1.png": "/zohra_association-demo-/static/media/event1.a50b84f8163b3fdefbb8.png",
     "static/media/logo.png": "/zohra_association-demo-/static/media/logo.42ed28b2b06a40919589.png",
+    "static/media/fa-solid-900.woff2": "/zohra_association-demo-/static/media/fa-solid-900.f54756da1f3d1b88887f.woff2",
+    "static/media/fa-brands-400.woff2": "/zohra_association-demo-/static/media/fa-brands-400.1f6bad931d92a0a52c45.woff2",
     "static/media/logo2.png": "/zohra_association-demo-/static/media/logo2.266d065ddfbac924bde7.png",
+    "static/media/fa-regular-400.woff2": "/zohra_association-demo-/static/media/fa-regular-400.5632c43107f4d3fa4806.woff2",
+    "static/media/fa-v4compatibility.woff2": "/zohra_association-demo-/static/media/fa-v4compatibility.24fc9d217708cb3f0362.woff2",
     "index.html": "/zohra_association-demo-/index.html",
-    "main.f5e3ef32.css.map": "/zohra_association-demo-/static/css/main.f5e3ef32.css.map",
-    "main.cb017ba3.js.map": "/zohra_association-demo-/static/js/main.cb017ba3.js.map",
+    "main.22f50217.css.map": "/zohra_association-demo-/static/css/main.22f50217.css.map",
+    "main.267c94f4.js.map": "/zohra_association-demo-/static/js/main.267c94f4.js.map",
     "453.778feb52.chunk.js.map": "/zohra_association-demo-/static/js/453.778feb52.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5e3ef32.css",
-    "static/js/main.cb017ba3.js"
+    "static/css/main.22f50217.css",
+    "static/js/main.267c94f4.js"
   ]
 }
