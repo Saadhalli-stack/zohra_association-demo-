@@ -40,10 +40,34 @@ export default function Contact() {
       <div className="contact-container">
       
         <div className="contact-info">
-          <h3>Informations</h3>
-          <p><i className="fas fa-phone-alt"></i> <a href="tel:+212600000000">+212 6 01 64 72 92</a></p>
-          <p><i className="fas fa-envelope"></i> <a href="mailto:ecolesdezohra@gmail.com">ecolesdezohra@gmail.com</a></p>
-        </div>
+         <h3>Informations</h3>
+
+  <p>
+    <i className="fas fa-phone-alt"></i>{" "}
+    <a href="tel:+212601647292">+212 6 01 64 72 92</a>
+  </p>
+
+  <p>
+    <i className="fas fa-envelope"></i>{" "}
+    <a href="mailto:ecolesdezohra@gmail.com">ecolesdezohra@gmail.com</a>
+  </p>
+
+  <p>
+    <i className="fab fa-instagram"></i>{" "}
+    <a href="https://www.instagram.com/ton_nom" target="_blank" rel="noopener noreferrer">Instagram</a>
+  </p>
+
+  <p>
+    <i className="fab fa-facebook-f"></i>{" "}
+    <a href="https://www.facebook.com/ton_nom" target="_blank" rel="noopener noreferrer">Facebook</a>
+  </p>
+
+  <p>
+    <i className="fab fa-whatsapp"></i>{" "}
+    <a href="https://wa.me/212601647292" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+  </p>
+</div>
+
 
         <div className="contact-form">
           <h3>Envoyez-nous un message</h3>
